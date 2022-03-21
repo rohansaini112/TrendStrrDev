@@ -1,0 +1,34 @@
+ion-list{
+    text-align: center;
+    ion-list-header{
+      --color: var(--ion-color-tertiary);
+      margin-bottom: 2vh;
+      letter-spacing: 3px;
+      transition: all 0.7s ease-out;
+      ion-label {
+          font-weight: bold;
+          font-size: 3em;
+      }
+    }
+    ion-button{
+      --background: var(--ion-color-tertiary);
+    }
+    ion-text{
+      --color: var(--ion-color-medium);
+    }
+  }
+  .heading-topic{
+    width: 240px;
+    h1{
+      color: #4d4d4f;
+      font-weight: bold;
+    }
+    ion-text{
+      color:#939399;
+    }
+  }
+  .swiper-slide, .swiper-pagination {
+    bottom: 30px !important;
+  }
+  
+  
